@@ -7,9 +7,10 @@ api = Api(app)
 class Quotes(Resource):
     def get(self):
         return {
-            'The Happiness Advantage': {
-                'quote': ['N/A']
-        }}
+            'name': 'Blayne',
+            'age': 21,
+            'Hapiness Rating': 8.2
+        }
 
 api.add_resource(Quotes, '/')
 

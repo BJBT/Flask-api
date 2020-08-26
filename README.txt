@@ -4,7 +4,7 @@ Create a virtual environment
 $ python3 -m venv env
 
 Acvtivate and go into venv
-$ source env/bin/activate
+$ source venv/bin/activate
 
 Install restful service
 $ pip3 install flask-restful
